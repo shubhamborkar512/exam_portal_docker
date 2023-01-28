@@ -1,6 +1,6 @@
-FROM openjdk:8
+FROM openjdk:8-jdk-alpine
 
-COPY Exam_portal-1.0.jar springBoot
+COPY /Exam_portal-1.0.jar /springBoot
 
 ENTRYPOINT ["java","-jar","/springBoot"]
 
