@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8
 
 COPY Exam_portal-1.0.jar springBoot
 
